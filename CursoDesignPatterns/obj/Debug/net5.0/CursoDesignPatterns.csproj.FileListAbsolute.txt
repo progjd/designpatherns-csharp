@@ -1,0 +1,16 @@
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\net5.0\CursoDesignPatterns.csproj.AssemblyReference.cache
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\net5.0\CursoDesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\net5.0\CursoDesignPatterns.AssemblyInfoInputs.cache
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\net5.0\CursoDesignPatterns.AssemblyInfo.cs
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\net5.0\CursoDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\net5.0\CursoDesignPatterns.exe
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\net5.0\CursoDesignPatterns.deps.json
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\net5.0\CursoDesignPatterns.runtimeconfig.json
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\net5.0\CursoDesignPatterns.runtimeconfig.dev.json
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\net5.0\CursoDesignPatterns.dll
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\net5.0\ref\CursoDesignPatterns.dll
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\net5.0\CursoDesignPatterns.pdb
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\net5.0\CursoDesignPatterns.dll
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\net5.0\ref\CursoDesignPatterns.dll
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\net5.0\CursoDesignPatterns.pdb
+C:\Users\João\source\repos\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\net5.0\CursoDesignPatterns.genruntimeconfig.cache
