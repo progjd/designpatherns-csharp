@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CursoDesignPatterns.Impostos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,10 @@ namespace CursoDesignPatterns.FormatoDadosDaRequisicao
 {
    public class ContaTwo
     {
+        
+
         public DateTime DataAbertura { get; set; }
+        public EstadoDaConta Estado;
         public String nameTitular { get; set; }
         public int Agencia { get; set; }
         public double Numero { get; set; }
@@ -26,5 +30,15 @@ namespace CursoDesignPatterns.FormatoDadosDaRequisicao
             this.Valor = valor;
             this.Saldo += valor;
         }
+        public void Saca(double valor)
+        {
+            Estado.Saca(this, valor);
+        }
+        public void Deposita(double valor)
+        {
+            Estado.Deposita(this, valor);
+        }
+       
+
     }
 }
