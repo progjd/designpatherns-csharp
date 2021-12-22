@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace CursoDesignPatterns.CriacaoObjetosBuilder
         public double Impostos { get; set; }
         public IList<ItemDaNota> todosItens{ get; set; }
 
-        public NotaFiscal(String razaosocial, String cnpj, DateTime dataemissao,
+        public NotaFiscal (String razaosocial, String cnpj, DateTime dataemissao,
             double valorbruto, double impostos, IList<ItemDaNota> itens, String observacoes)
         {
             this.RazaoSocial = razaosocial;
@@ -26,6 +27,7 @@ namespace CursoDesignPatterns.CriacaoObjetosBuilder
             this.Impostos = impostos;
             this.todosItens = itens;
             this.Observacoes = observacoes;
+            
         }
     }
 }

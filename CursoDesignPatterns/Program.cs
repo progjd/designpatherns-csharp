@@ -10,15 +10,24 @@ namespace CursoDesignPatterns.Impostos
         static void Main(string[] args)
         {
             NotaFiscalBuilder criador = new NotaFiscalBuilder();
-            criador.ParaEmpresa("casadacasa");
-            criador.ComCnpj("23.345.345/0001-55");
-            criador.ComItem(new ItemDaNota("item 1", 30));
-            criador.ComItem(new ItemDaNota("item 2", 20));
-            criador.DataAtual();
-            criador.ComObservacoes("observando");
-            NotaFiscal nf = criador.Constroi();
+            
+            criador.AdicionarAcao(new EnviandoPorEmail());
+            criador.AdicionarAcao(new EnviandoPorSMS());
+            criador.AdicionarAcao(new NotaSalvaNoDAO());
+            criador.AdicionarAcao(new Impressao());
+            criador.AdicionarAcao(new MultiplicadoPorNota(2));
+            criador.AdicionarAcao(new MultiplicadoPorNota(3));
+            NotaFiscal nf = criador.ParaEmpresa("casablanca")
+            .ComCnpj("23.345.345/0001-55")
+            .ComItem(new ItemDaNota("item 1", 200.0))
+            .ComItem(new ItemDaNota("item 2", 250.0))
+            .ComObservacoes("observando")
+            .Constroi();
             Console.WriteLine(nf.ValorTotal);
             Console.WriteLine(nf.Impostos);
+           
+
+
             Console.ReadKey();
         }
     }
